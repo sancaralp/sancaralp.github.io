@@ -12,6 +12,12 @@
   --color-grey-1: #484848;
   --color-grey-2: #D3D3D3;
 
+  --color-section-1: #00664b;
+  --color-section-2: #00805e;
+  --color-section-3: #009970;
+  --color-section-4: #00b383;
+  --color-section-5: #00cc96;
+
   --box-shadow-1: 0 3px 15px rgba(0,0,0,3);
 }
 body{
@@ -50,14 +56,25 @@ section{
 .sec2{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: var(--color-section-1);
 }
 .sec3{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: var(--color-section-2);
 }
 .sec4{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: var(--color-section-3);
+}
+.sec5{
+  display: none;
+  transform: translateY(0) scale(1);
+  background-color: var(--color-section-4);
+}
+.active{
+  display: block;
 }
 //controls
 .controls{

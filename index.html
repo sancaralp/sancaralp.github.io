@@ -8,31 +8,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body class="main-content">
-    <header class = "section sec1 header active">
+    <header class = "section sec1 header active" id = "home">
         <! <i class="fa-brands fa-instagram"></i>
     </header>
     <main>
-        <section class = "section sec2 about"></section>
-        <section class = "section sec3 portfolio"></section>
-        <section class = "section sec4 blogs"></section>
-        <section class = "section sec5 contact"></section>
+        <section class="section sec2 about" id="projects"></section>
+        <section class = "section sec3 experiences" id = "experiences"></section>
+        <section class = "section sec4 cv" id = "cv"></section>
+        <section class = "section sec5 contact" id = "contact"></section>
 
     </main>
     <div class = "controls">
-        <div class="control control-1 active-btn">
+        <div class="control control-1 active-btn" data-id = "home">
             <i class="fa-solid fa-house"></i>
         </div>
-        <div class="control control-2 ">
+        <div class="control control-2 " data-id = "projects">
             <i class="fa-solid fa-gamepad"></i>
         </div>
-        <div class="control control-3 ">
+        <div class="control control-3 " data-id = "experiences">
             <i class="fa-solid fa-business-time"></i>
         </div>
         <div class="control control-4 ">
-            <i class="fa-solid fa-user-astronaut"></i>
+            <i class="fa-solid fa-user-astronaut" data-id = "cv"></i>
         </div>
         <div class="control control-5 ">
-            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-envelope" data-id = "contact"></i>
         </div>
     </div>
 <script src = "app.js"></script>
