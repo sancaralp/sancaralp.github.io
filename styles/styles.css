@@ -1,98 +1,109 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
-:root{
+
+:root {
   --color-primary: #191d2b;
   --color-secondary: #27AE60;
   --color-white: #F5F5F5;
   --color-black: #080808;
   --color-grey-1: #484848;
   --color-grey-2: #D3D3D3;
-
   --box-shadow-1: 0 3px 15px rgba(0,0,0,3);
 }
-body{
+
+body {
   background-color: var(--color-primary);
   color: var(--color-white);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
-a{
+
+a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
   font-family: inherit;
 }
-header{
+
+header {
   height: 100vh;
   color: var(--color-white);
   overflow: hidden;
 }
-section{
+
+section {
   min-height: 100vh;
   width: 100%;
   position: absolute;
-  left:0;
+  left: 0;
   top: 0;
   padding: 3rem 18rem;
 }
-.section{
+
+.section {
   transform: translate(-100%) scale(0);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
 }
-.sec1{
+
+.sec1 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec2{
+
+.sec2 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec3{
+
+.sec3 {
   display: none;
   transform: translateY(0) scale(1);
 }
-.sec4{
+
+.sec4 {
   display: none;
   transform: translateY(0) scale(1);
 }
-//controls
-.controls{
+
+.controls {
   position: fixed;
   z-index: 10;
-  top:50%;
-  right:3%;
+  top: 50%;
+  right: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  .active-btn{
-    background-color: var(--color-secondary) !important;
-    transition: all .4s ease-in-out;
-    i{
-      color: var(--color-white);
-    }
-  }
-  .control{
-    padding: 1rem;
-    cursor: pointer;
-    background-color: var(--color-grey-1);
-    width: 55px;
-    height: 55px;
-    border-radius: 30%;//anti-aliasing, 50 is round
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .7rem 0;
-    box-shadow: var(--box-shadow-1);
-    i{
-      font-size: 1.2rem;
-      color:var(--color-grey-2);
-      pointer-events: none;
-    }
-  }
 }
+.controls .active-btn {
+  background-color: var(--color-secondary) !important;
+  transition: all 0.4s ease-in-out;
+}
+.controls .active-btn i {
+  color: var(--color-white);
+}
+.controls .control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-grey-1);
+  width: 55px;
+  height: 55px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0;
+  box-shadow: var(--box-shadow-1);
+}
+.controls .control i {
+  font-size: 1.2rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
