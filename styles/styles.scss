@@ -76,17 +76,19 @@ section{
 }
 .active{
   display: block;
+
   animation: scaleAnim 1s ease-in-out;
   @keyframes scaleAnim {
     0%{
-      transform: translateY(-100%) scale(0)
+      transform: translateX(50%) scaleX(0)
     }
     100%{
-      transform: translateY(0) scale(1)
+      transform: translateX(0%) scaleX(1)
     }
   }
 }
-//controls
+
+
 .controls{
   position: fixed;
   z-index: 10;

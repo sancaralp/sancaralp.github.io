@@ -22,6 +22,7 @@
 
 body {
   background-color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
 }
@@ -85,6 +86,15 @@ section {
 
 .active {
   display: block;
+  animation: scaleAnim 1s ease-in-out;
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateX(50%) scaleX(0);
+  }
+  100% {
+    transform: translateX(0%) scaleX(1);
+  }
 }
 
 .controls {
