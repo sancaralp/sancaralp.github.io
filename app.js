@@ -19,10 +19,7 @@ function PageTrans(){
         if(id){
             //remove selected from other buttons
 
-            /*sectBtns.forEach((btn) => {
-                btn.classList.remove('active')
-            })
-            e.target.classList.add('active')*/
+
 
 
 

@@ -7,16 +7,16 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #ff0090;
   --color-white: #F5F5F5;
   --color-black: #080808;
   --color-grey-1: #484848;
   --color-grey-2: #D3D3D3;
-  --color-section-1: #00664b;
-  --color-section-2: #00805e;
-  --color-section-3: #009970;
-  --color-section-4: #00b383;
-  --color-section-5: #00cc96;
+  --color-section-1: #4d0066;
+  --color-section-2: #6f0080;
+  --color-section-3: #8a0099;
+  --color-section-4: #b300b0;
+  --color-section-5: #ff6fae;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,3);
 }
 
@@ -80,7 +80,7 @@ section {
 
 .sec5 {
   display: none;
-  transform: translateY(0) scale(1);
+  transform: translateY(0%) scale(1);
   background-color: var(--color-section-4);
 }
 
