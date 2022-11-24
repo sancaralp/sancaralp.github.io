@@ -1,20 +1,20 @@
 :root {
-  --fontColor: #272829;
-  --color1: #0563bb;
-  --color2: #067ded;
-  --color4: #148af9;
-  --color3: #0678e3;
-  --dark1: #45505b;
-  --dark2: #728394;
+  --fontColor: #007000;
+  --color1: #05bb29;
+  --color2: #06ed25;
+  --color4: #14f91f;
+  --color3: #06e323;
+  --dark1: #88a98d;
+  --dark2: #b0dcb2;
   --soDark: #011426;
-  --white: #fff;
+  --white: #091e34;
   --white2: var(--white);
-  --white3: #f2f3f5;
-  --white4: #e6e9ec;
-  --white5: #ddd;
-  --white6: #d7dce1;
-  --white7: #eee;
-  --white8: #eef7ff;
+  --white3: #142536;
+  --white4: #2a2f34;
+  --white5: #282d33;
+  --white6: #29343d;
+  --white7: #3b3b3b;
+  --white8: #4d4d4d;
   --altColor1: #18d26e;
   --altColor2: #ed3c0d;
 }
@@ -25,6 +25,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--fontColor);
+  background-color: var(--soDark);
 }
 
 a {
@@ -299,7 +300,7 @@ h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top left no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: relative;
 }
 
@@ -311,7 +312,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(5, 20, 31, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -489,7 +490,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: var(--soDark);
+  color: var(--dark1);
 }
 
 .facts .count-box p {
