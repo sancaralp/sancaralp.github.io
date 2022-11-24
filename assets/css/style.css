@@ -849,7 +849,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: var(--fontColor);
 }
 
 .testimonials .testimonial-item h4 {
