@@ -1,5 +1,5 @@
 :root {
-  --fontColor: #058305;
+  --fontColor: #068d06;
   --color1: #05bb29;
   --color2: #05f325;
   --dark1: #88a98d;
@@ -493,41 +493,6 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: var(--dark1);
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: var(--white);
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: var(--color1);
-}
 
 /*--------------------------------------------------------------
 # Resume
